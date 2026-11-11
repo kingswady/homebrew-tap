@@ -6,25 +6,25 @@ cask "cw" do
     end
   end
 
-  version "0.15.0"
+  version "0.16.0"
 
   on_macos do
     on_arm do
-      sha256 "cd4e563245768b0d9c8b16f091fbbc38c7af101cdef2033e1f5a942d4b0f29b8"
+      sha256 "04e345f09929e7ca53a8a077f9c028a099528eea916663fcda9a479a196d7204"
       url "https://github.com/kingswady/cwcli/releases/download/v#{version}/cw_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "19994865520a70987ee3c83e4624d11ae5aa6d71245c449b38a1682ffb0df851"
+      sha256 "0fae9f29c6d3fe811d629fd25a828c2a2c4a6e294414293ecb64b5acc8790c44"
       url "https://github.com/kingswady/cwcli/releases/download/v#{version}/cw_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "f7b05ea7d235ef30920402182538dc345101d1c3cafd6fe69109e707f5a5ea7c"
+      sha256 "444a53201877ffe68fe783041ad5032aab56b160caf8ddefabf90df10b10666c"
       url "https://github.com/kingswady/cwcli/releases/download/v#{version}/cw_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "9e23fab2b20cfa1129b9066fe41575a39be23c993905a35d4e177a2947e2e83c"
+      sha256 "78ca961a9fdf249eee5b33915c2e62384d9f1ae36137d5d58121d659c7fc8750"
       url "https://github.com/kingswady/cwcli/releases/download/v#{version}/cw_linux_amd64.tar.gz"
     end
   end
